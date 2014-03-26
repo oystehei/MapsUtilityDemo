@@ -1,0 +1,12 @@
+﻿<metadata>
+	<remove-node path="/api/package[starts-with(@name, 'com.google.maps.android.heatmaps')]" />
+
+	<attr path="/api/package[@name='com.google.maps.android']" name="managedName">Android.Gms.Maps.Utils</attr>
+    <attr path="/api/package[@name='com.google.maps.android.clustering']" name="managedName">Android.Gms.Maps.Utils.Clustering</attr>
+    <attr path="/api/package[@name='com.google.maps.android.clustering.algo']" name="managedName">Android.Gms.Maps.Utils.Clustering.Algo</attr>
+    <attr path="/api/package[@name='com.google.maps.android.clustering.view']" name="managedName">Android.Gms.Maps.Utils.Clustering.View</attr>
+    <attr path="/api/package[@name='com.google.maps.android.geometry']" name="managedName">Android.Gms.Maps.Utils.Geometry</attr>
+    <attr path="/api/package[@name='com.google.maps.android.projection']" name="managedName">Android.Gms.Maps.Utils.Projection</attr>
+    <attr path="/api/package[@name='com.google.maps.android.quadtree']" name="managedName">Android.Gms.Maps.Utils.Quadtree</attr>
+    <attr path="/api/package[@name='com.google.maps.android.ui']" name="managedName">Android.Gms.Maps.Utils.UI</attr>
+</metadata>
